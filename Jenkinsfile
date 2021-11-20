@@ -10,6 +10,7 @@ pipeline {
            git clone https://github.com/deesnest/pushtest.git
            ./test.sh
 	   ls
+	   pwd
 	   '''
 			}	
 		}		
